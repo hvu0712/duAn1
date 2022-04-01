@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    android:backgroundTint="@color/white"
+    android:layout_margin="10dp"
+    >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/img_itemFoodRicipe"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/ricardo_profile"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:background="@color/white"
+                    android:layout_below="@id/img_itemFoodRicipe"
+                    android:id="@+id/tv_titleFoodRicipe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="center"
+                    android:text="Ricardo Milos"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    />
+        </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
